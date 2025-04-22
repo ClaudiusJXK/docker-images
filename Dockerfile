@@ -1,4 +1,4 @@
-FROM centos:7
+FROM quay.io/centos/centos:stream9
 
 # 安装 epel-release 并用它安装 iperf3
 RUN yum -y install epel-release && \
